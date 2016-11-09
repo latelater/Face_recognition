@@ -1,0 +1,111 @@
+/*facesrc.css*/
+.div_icon{
+    text-align: center;
+}
+.icon{
+    height: 129px;
+    width: 270px;
+}
+
+.div_search{
+
+    width: 630px;
+    min-height: 211px;
+    border:1px solid #ccc;  
+    margin: 0 auto;
+
+}
+
+.div_file{
+    margin: auto;
+    width: 100%;
+    height: 33px;
+    margin-top: 43px;
+}
+
+
+/*input.file{  
+    vertical-align:middle;  
+    position:relative;  
+    left:-227px;  
+    filter:alpha(opacity=0);  
+    opacity:0;  
+    z-index:1;  
+    width:227px;  
+    height: 33px;
+}  */
+  
+form input.viewfile {  
+    /*z-index:99; */ 
+    width: 100%;
+    border:1px solid #ccc;  
+    padding:2px;  
+    /*width:560px; */ 
+    vertical-align:middle;  
+    color:#999; 
+    /*margin-left: 233px; */
+    height: 34px;
+}  
+  
+.search_form p{
+    display: block;
+    margin: auto;
+    width: 630px;
+    text-align: center;
+}
+/*form p span {  
+    float:left;  
+}  */
+  
+/*form label.bottom {  
+    border:1px solid #38597a;  
+    background:#428bca;  
+    color:#fff;  
+    height:33px;  
+    line-height:33px;  
+    display:block;  
+    width:70px;  
+    text-align:center;  
+    cursor:pointer;  
+    float:left;  
+    position:relative;  
+}*/
+
+
+.div_img{
+    min-height: 80px;
+    width: 480px;
+    /*最小宽度问题   */
+    /*border:1px solid #38597a;  */
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.div_img img{
+    display: block;
+    margin: auto;
+    max-width: 480px;
+}
+
+.detection_img{
+    margin: auto;
+    max-width: 450px;
+}
+
+.div_face dl{
+    width:470px;
+    height:50px;
+    margin:auto;
+}
+
+.div_face dl dt{
+    float:left;
+    margin-left:20px;
+}
+
+
+
+.div_button{
+    
+}
